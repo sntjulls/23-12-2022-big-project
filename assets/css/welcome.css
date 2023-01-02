@@ -5,7 +5,7 @@
     background-image: url(./../bg-images/Group\ 49_mob.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    /* background-position: center bottom; */
     color: var(--color-light);
     /* color: #ffffff; */
   }
