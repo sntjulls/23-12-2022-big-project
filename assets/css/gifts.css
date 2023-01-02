@@ -9,7 +9,7 @@
 }
 
 .gifts__heading {
-  font-size: 1.50rem;
+  font-size: 1.5rem;
   /* padding-top: 10%; */
   margin-top: 2rem;
   /* padding: 10px 20px; */
@@ -42,7 +42,7 @@
   font-weight: 700;
   font-size: 23px;
   padding-top: 3%;
-  padding-bottom: 4.5%; 
+  padding-bottom: 4.5%;
   /* line-height: 51px; */
   text-align: center;
 }
@@ -111,13 +111,15 @@ p {
   /* padding-left: 23%; */
 }
 
-.hide-on-mobile { display: inline; }
+.hide-on-mobile {
+  display: inline;
+}
 /* Smartphone Portrait and Landscape */
-@media only screen
-and (min-device-width : 310px)
-and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
-
-
+@media only screen and (min-device-width: 310px) and (max-device-width: 480px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
 
 @media (min-width: 768px) {
   .gifts {
