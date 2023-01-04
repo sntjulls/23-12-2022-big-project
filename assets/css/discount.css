@@ -1,14 +1,10 @@
 .discount {
-  /* height: 100vh; */
   height: 170vh;
-
   padding: var(--space-size);
   background-color: var(--color-main);
   background-image: url(./../bg-images/discount_mob.png);
-
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  /* background-position: center bottom; */
+
   color: var(--color-light);
 }
 
