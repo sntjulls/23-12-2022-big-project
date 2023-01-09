@@ -96,9 +96,10 @@
   .btn__desc {
     /* display: inline-block; */
     /* display: block; */
-    max-width: 350px;
-    width: 100%;
-    min-width: 232px;
+    /* max-width: 350px; */
+    /* max-width: 100%; */
+    width: 35%;
+    min-width: 20%;
     padding: 1.1em 0;
     border-radius: 70px;
     background-color: var(--color-main);

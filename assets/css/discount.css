@@ -4,11 +4,14 @@
   background-color: var(--color-main);
   background-image: url(./../bg-images/discount_mob.png);
   background-repeat: no-repeat;
-
   color: var(--color-light);
 }
 
 .discount__header {
+  /* display: block; */
+  display: flex;
+  margin: auto;
+
 }
 .discount__heading {
   font-size: 1.85rem;
@@ -23,7 +26,6 @@
 .bold { */
 /* margin-left: 740px; */
 /* margin-bottom: 50px; */
-
 /* .discount__text{
   margin-left: 740px;
 
@@ -45,7 +47,6 @@
   display: block;
   /* margin-top: 0; */
   margin: 0 auto;
-
   margin-top: 50px;
   /* padding-top: 50px; */
   /* position: fixed; */
@@ -112,12 +113,16 @@
   }
 
   .block__container {
-    /* position: fixed; */
+    /* position: block; */
+    /* position: relative; */
     background-color: #ffffff;
     border-radius: 26px;
     padding: 1.1em 0;
-    max-width: 30%;
-    height: 270px;
+    max-width: 29px;
+    /* width: 90%; */
+    height: 40%;
+    /* height: 270px; */
+
     min-width: 30%;
     margin-left: 740px;
     /* margin-top: 200px; */
@@ -156,5 +161,12 @@
     text-align: center;
     margin: auto;
     margin-top: 5%;
+  }
+  .discount__heading {
+    font-size: 3vw;
+  }
+  
+  .discount__text {
+    font-size: 1.05vw;
   }
 }
